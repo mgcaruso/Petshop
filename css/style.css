@@ -343,4 +343,12 @@ p.card-text{
     #welcome{
         object-position: 80%;
     }
+    #map-box{
+        padding:0;
+        padding-bottom: 2rem;
+    }
+
+    .body1 .navbar-toggler{
+        border: 2px solid #402E32;
+    }
 }
