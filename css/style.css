@@ -78,13 +78,23 @@ footer{
 
 /* --------------------------------------------buttons */
 
+a[href="#"], li.css-button-shadow-border-sliding--rose{
+    background-color: #eccfb3;
+    z-index: 1;
+}
+
+li > a[href="#"]{
+    color:#402E32 !important;
+    /* color:white !important; */
+    /* background-color: #402E32; */
+}
 
 
 .css-button-shadow-border-sliding--rose {
     min-width: 15vh;
     height: 40px;
     color: #fff;
-    padding: 5px 10px;
+    padding: 5px 0px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -95,7 +105,7 @@ footer{
     border: none;
     box-shadow: 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
     /* background: #ff0a78; */
-   z-index: 1;
+   z-index: 2;
   }
   .css-button-shadow-border-sliding--rose:hover:after {
     width: 100%;
@@ -222,16 +232,6 @@ iframe{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-a[href="#"]{
-    color:white !important;
-    /* background-color: #402E32; */
-}
-
-li > a[href="#"]{
-    color:white !important;
-    /* background-color: #402E32; */
-}
-
 .css-button-shadow-border-sliding--rose{
     background-color: #402E32 !important;
     border-style: none;
@@ -290,6 +290,9 @@ li > a[href="#"]{
 .nav-link{
     width: 100%;
     color:#FFE8D3;
+    text-transform: uppercase;
+    font-weight: lighter;
+
 }
 
 .css-button-shadow-border-sliding--rose{
@@ -352,4 +355,16 @@ p.card-text{
     .body1 .navbar-toggler-icon{
         border: 2px solid #402E32;
     }
+}
+
+.juguetes-farmacia{
+    background-color: #402E32;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.juguetes-farmacia:hover{
+    background-color: #eccfb3;
+    color: #402E32;
 }

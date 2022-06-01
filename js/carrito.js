@@ -64,10 +64,10 @@ async function getDataforCarrito(){
             template = `
                 <div class="card mb-3" style="max-width: 540px;">
                     <div class="g-0 d-flex flex-column p-5 d-flex justify-content-center text-center">
-                        <h4>No hay productos en el carrito</h4>
+                        <h4>No hay productos en el carrito ❗</h4>
                         <h5>Añade productos a la lista:</h5>
-                        <a style="color:#402E32; font-weight: bold" class="nav-link p-3" href="/juguetes.html">Juguetes</a>
-                        <a style="color:#402E32; font-weight: bold" class="nav-link p-3" href="/farmacia.html">Farmacia</a>
+                        <a class="juguetes-farmacia nav-link p-3 m-2" href="/juguetes.html">Juguetes 🦴</a>
+                        <a class="juguetes-farmacia nav-link p-3 m-2" href="/farmacia.html">Farmacia 💊</a>
                     </div>
                 </div>`
         }
@@ -81,8 +81,8 @@ async function getDataforCarrito(){
                     <div class="g-0 d-flex flex-column p-5 d-flex justify-content-center text-center">
                         <h4>No hay productos en el carrito</h4>
                         <h5>Añade productos a la lista:</h5>
-                        <a style="color:#402E32; font-weight: bold"  class="nav-link p-3" href="/juguetes.html">Juguetes</a>
-                        <a style="color:#402E32; font-weight: bold"  class="nav-link p-3" href="/farmacia.html">Farmacia</a>
+                        <a class="juguetes-farmacia nav-link p-3 m-2" href="/juguetes.html">Juguetes</a>
+                        <a class="juguetes-farmacia nav-link p-3 m-2" href="/farmacia.html">Farmacia</a>
                     </div>
                 </div>`
                 cantidadProductos.innerHTML = `<i class="fs-4 bi bi-cart"></i>`
