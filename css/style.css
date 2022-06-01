@@ -91,9 +91,9 @@ footer{
     position: relative;
     display: inline-block;
     outline: none;
-    border-radius: 5px;
+    border-radius: 3px;
     border: none;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow: 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
     /* background: #ff0a78; */
    z-index: 1;
   }
@@ -102,14 +102,14 @@ footer{
     left: 0;
   }
   .css-button-shadow-border-sliding--rose:after {
-    border-radius: 5px;
+    border-radius: 3px;
     position: absolute;
     content: "";
     width: 0;
     height: 100%;
     top: 0;
     z-index: -1;
-    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow: 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
     transition: all 0.3s ease;
     background-color: #FE8E55;
     right: 0;
@@ -234,6 +234,7 @@ li > a[href="#"]{
 
 .css-button-shadow-border-sliding--rose{
     background-color: #402E32 !important;
+    border-style: none;
 }
 
 
@@ -348,7 +349,7 @@ p.card-text{
         padding-bottom: 2rem;
     }
 
-    .body1 .navbar-toggler{
+    .body1 .navbar-toggler-icon{
         border: 2px solid #402E32;
     }
 }
